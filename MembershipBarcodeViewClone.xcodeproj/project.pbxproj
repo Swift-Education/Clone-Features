@@ -6,30 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B556C7232CF345F600589F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556C71A2CF345F600589F24 /* AppDelegate.swift */; };
+		B556C7242CF345F600589F24 /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556C71C2CF345F600589F24 /* BarcodeViewController.swift */; };
+		B556C7252CF345F600589F24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556C7202CF345F600589F24 /* SceneDelegate.swift */; };
+		B556C7262CF345F600589F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556C7212CF345F600589F24 /* ViewController.swift */; };
+		B556C7272CF345F600589F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B556C71B2CF345F600589F24 /* Assets.xcassets */; };
+		B556C7292CF345F600589F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B556C71F2CF345F600589F24 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B556C6D02CF33DA400589F24 /* MembershipBarcodeViewClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MembershipBarcodeViewClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B556C71A2CF345F600589F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B556C71B2CF345F600589F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B556C71C2CF345F600589F24 /* BarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
+		B556C71D2CF345F600589F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B556C71E2CF345F600589F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B556C7202CF345F600589F24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B556C7212CF345F600589F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B556C72B2CF3461500589F24 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B556C6E22CF33DA500589F24 /* Exceptions for "MembershipBarcodeViewClone" folder in "MembershipBarcodeViewClone" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B556C6CF2CF33DA400589F24 /* MembershipBarcodeViewClone */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B556C6D22CF33DA400589F24 /* MembershipBarcodeViewClone */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B556C6E22CF33DA500589F24 /* Exceptions for "MembershipBarcodeViewClone" folder in "MembershipBarcodeViewClone" target */,
-			);
-			path = MembershipBarcodeViewClone;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B556C6CD2CF33DA400589F24 /* Frameworks */ = {
@@ -45,7 +41,8 @@
 		B556C6C72CF33DA400589F24 = {
 			isa = PBXGroup;
 			children = (
-				B556C6D22CF33DA400589F24 /* MembershipBarcodeViewClone */,
+				B556C7222CF345F600589F24 /* MembershipBarcodeViewClone */,
+				B556C72C2CF3461500589F24 /* Configuration */,
 				B556C6D12CF33DA400589F24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,28 @@
 				B556C6D02CF33DA400589F24 /* MembershipBarcodeViewClone.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B556C7222CF345F600589F24 /* MembershipBarcodeViewClone */ = {
+			isa = PBXGroup;
+			children = (
+				B556C71A2CF345F600589F24 /* AppDelegate.swift */,
+				B556C71B2CF345F600589F24 /* Assets.xcassets */,
+				B556C71C2CF345F600589F24 /* BarcodeViewController.swift */,
+				B556C71D2CF345F600589F24 /* Info.plist */,
+				B556C71F2CF345F600589F24 /* LaunchScreen.storyboard */,
+				B556C7202CF345F600589F24 /* SceneDelegate.swift */,
+				B556C7212CF345F600589F24 /* ViewController.swift */,
+			);
+			path = MembershipBarcodeViewClone;
+			sourceTree = "<group>";
+		};
+		B556C72C2CF3461500589F24 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B556C72B2CF3461500589F24 /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +91,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B556C6D22CF33DA400589F24 /* MembershipBarcodeViewClone */,
 			);
 			name = MembershipBarcodeViewClone;
 			packageProductDependencies = (
@@ -122,6 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B556C7272CF345F600589F24 /* Assets.xcassets in Resources */,
+				B556C7292CF345F600589F24 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,25 +150,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B556C7232CF345F600589F24 /* AppDelegate.swift in Sources */,
+				B556C7242CF345F600589F24 /* BarcodeViewController.swift in Sources */,
+				B556C7252CF345F600589F24 /* SceneDelegate.swift in Sources */,
+				B556C7262CF345F600589F24 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		B556C71F2CF345F600589F24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B556C71E2CF345F600589F24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		B556C6E42CF33DA500589F24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C72B2CF3461500589F24 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MembershipBarcodeViewClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -166,17 +202,20 @@
 		};
 		B556C6E52CF33DA500589F24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C72B2CF3461500589F24 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MembershipBarcodeViewClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -192,6 +231,7 @@
 		};
 		B556C6E62CF33DA500589F24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C72B2CF3461500589F24 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -255,6 +295,7 @@
 		};
 		B556C6E72CF33DA500589F24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C72B2CF3461500589F24 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
