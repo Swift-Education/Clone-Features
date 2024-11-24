@@ -15,5 +15,11 @@ class ViewController: UIViewController {
     }
 
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let barcodeVC = BarcodeViewController()
+        barcodeVC.modalPresentationStyle = .fullScreen
+        present(barcodeVC, animated: true)
+    }
 }
 
